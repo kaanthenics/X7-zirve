@@ -1,1 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../file_000000000f4881fba1e7e44957380c0b.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
