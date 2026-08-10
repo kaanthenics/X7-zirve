@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     width: 100%;
-    height: 100vh;
-    background-image: url('../file_00000000fb1081f79de2471a7550a870.png');
+    height: 100%;
+}
+
+body {
+    background-image: url('../file_00000000e744822fb5baca02add13fd7.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
