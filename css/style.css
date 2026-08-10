@@ -7,8 +7,18 @@
 body {
     width: 100%;
     height: 100vh;
-    background-image: url('../file_000000000f4881fba1e7e44957380c0b.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    object-fit: cover;
 }
